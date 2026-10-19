@@ -1,0 +1,36 @@
+{
+    "format": "cadcraft-edition",
+    "version": 1,
+    "app": "takeoffcraft",
+    "name": "TakeoffCraft",
+    "edition": "browser",
+    "release": "0.6",
+    "semver": "0.6.0",
+    "tag": "takeoffcraft-v0.6.0",
+    "zip": "takeoffcraft-browser-edition-v0.6.0.zip",
+    "packed_at": "2026-10-19T00:04:10Z",
+    "from": {
+        "build": "0.6",
+        "released_at": "2026-10-19 00:03 UTC",
+        "git": "28f3444 (dev had uncommitted changes)"
+    },
+    "license": "Apache-2.0",
+    "libs": {
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "pdf-lib": "1.17.1",
+        "pdfjs": "6.3.289",
+        "three": "0.186.1",
+        "bootstrap": "5.3.8",
+        "bootstrap-icons": "1.13.2",
+        "archivo": "5.2.8"
+    },
+    "changes_to_copied_files": [
+        "Renamed pdf.worker.min.mjs, pdf.mjs, pdf.min.mjs, pdf.worker.mjs to .js (and every reference to them), so servers that do not know the .mjs type still serve them as JavaScript.",
+        "Library URLs written as /assets/vendor/<lib>/current/ are pinned to the versions listed in release.json."
+    ],
+    "files": 395,
+    "bytes_before_this_file": 17721321,
+    "notes": "TakeoffCraft prices things that are never drawn: typed quantities for mobilization, permits, allowances and lump sums, in LS, EA, cubic yards or metres or any length or area unit, with assemblies. Cut and fill come straight from CivilCraft (Earthwork › Send to TakeoffCraft) as two items to price that take the new numbers when sent again and keep your rates. Export › Bid packages and leveling… splits the estimate by CSI division, downloads each package's scope for subcontractors (no prices) and levels the bids that come back, with a Bid leveling sheet of live formulas in the workbook. Type a calculation in every length field and the type-in box. Fixed: the message after a room showed \"Mod+Z\" instead of your system's undo key. Every app gets Show bars, Reset the layout, a toolbar menu, an interface size and pen and touch. Spanish (es-MX) and, new, Bahasa Indonesia are machine-made drafts, not yet reviewed."
+}
