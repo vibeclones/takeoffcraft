@@ -1,0 +1,57 @@
+{
+  "app": "takeoffcraft",
+  "css": [
+    "takeoffcraft.css",
+    "learn.css",
+    "countall.css"
+  ],
+  "module": "takeoffcraft.js",
+  "imports": {
+    "pdfjs-dist": "./assets/vendor/pdfjs/6.3.289/build/pdf.min.js",
+    "pdf-lib": "./assets/vendor/pdf-lib/1.17.1/pdf-lib.esm.min.js",
+    "three": "./assets/vendor/three/0.186.1/three.module.js",
+    "@noble/curves/": "./assets/vendor/noble-curves/2.4.0/",
+    "@noble/hashes/": "./assets/vendor/noble-hashes/2.4.0/",
+    "@noble/ciphers/": "./assets/vendor/noble-ciphers/2.4.0/"
+  },
+  "pdfWorker": "./assets/vendor/pdfjs/6.3.289/build/pdf.worker.min.js",
+  "pdfCmaps": "./assets/vendor/pdfjs/6.3.289/cmaps/",
+  "pdfFonts": "./assets/vendor/pdfjs/6.3.289/standard_fonts/",
+  "pdfWasm": "./assets/vendor/pdfjs/6.3.289/wasm/",
+  "pdfIcc": "./assets/vendor/pdfjs/6.3.289/iccs/",
+  "phone": { "options": "[data-sheetbar]" },
+  "devices": true,
+  "calc": true,
+  "reasons": true,
+  "teamwork": true,
+  "totals": true,
+  "lessons": true,
+  "docinfo": true,
+  "ai-suggest": true,
+  "ai-activity": true,
+  "ai-ask": true,
+  "access": true,
+  "fields": true,
+  "propgrid": true,
+  "panels": [
+    "move",
+    "window"
+  ],
+  "accepts": [
+    "handoff",
+    "live"
+  ],
+  "addons": "own",
+  "input": "input-takeoffcraft.js",
+  "workspaces": {
+    "layouts": [
+      "docked",
+      "toolbox",
+      "autorev", "duncan", "vector", "sketch", "rhino", "pro-cad1", "pro-cad2", "pro-cad3", "pro-cad4", "drafting"
+    ],
+    "adapter": "workspace-takeoffcraft.js"
+  },
+  "hardware": true,
+  "problems": true,
+  "engines": true
+}
