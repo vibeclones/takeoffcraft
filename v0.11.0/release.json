@@ -1,0 +1,37 @@
+{
+    "format": "cadcraft-edition",
+    "version": 1,
+    "app": "takeoffcraft",
+    "name": "TakeoffCraft",
+    "edition": "browser",
+    "release": "0.11",
+    "semver": "0.11.0",
+    "tag": "takeoffcraft-v0.11.0",
+    "zip": "takeoffcraft-browser-edition-v0.11.0.zip",
+    "packed_at": "2026-11-23T02:27:13Z",
+    "from": {
+        "build": "0.11",
+        "released_at": "2026-11-22 20:32 UTC",
+        "git": "73be47e14 (dev had uncommitted changes)"
+    },
+    "license": "Apache-2.0",
+    "libs": {
+        "manifold-3d": "3.5.4",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "pdf-lib": "1.17.1",
+        "pdfjs": "6.3.289",
+        "three": "0.186.1",
+        "bootstrap": "5.3.8",
+        "bootstrap-icons": "1.13.2",
+        "archivo": "5.2.8"
+    },
+    "changes_to_copied_files": [
+        "Renamed pdf.min.mjs, pdf.mjs, pdf.worker.min.mjs, pdf.worker.mjs to .js (and every reference to them), so servers that do not know the .mjs type still serve them as JavaScript.",
+        "Library URLs written as /assets/vendor/<lib>/current/ are pinned to the versions listed in release.json."
+    ],
+    "files": 1112,
+    "bytes_before_this_file": 165423646,
+    "notes": "CadCraft Studio 0.11 (0.10.1 folded in; owner 2026-11-22)"
+}

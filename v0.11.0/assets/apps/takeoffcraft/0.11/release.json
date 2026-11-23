@@ -1,0 +1,50 @@
+{
+    "app": "takeoffcraft",
+    "version": "0.11",
+    "released_at": "2026-11-22 20:32 UTC",
+    "git": "73be47e14 (dev had uncommitted changes)",
+    "libs": {
+        "manifold-3d": "3.5.4",
+        "noble-ciphers": "2.4.0",
+        "noble-curves": "2.4.0",
+        "noble-hashes": "2.4.0",
+        "pdf-lib": "1.17.1",
+        "pdfjs": "6.3.289",
+        "three": "0.186.1"
+    },
+    "notes": "CadCraft Studio 0.11 (0.10.1 folded in; owner 2026-11-22)",
+    "thawed": [
+        {
+            "at": "2026-11-22 22:40 UTC",
+            "why": "Owner 2026-11-22: fix, then re-cut: Studio Live co-editing in DetailCraft and CivilCraft (FX.459)"
+        },
+        {
+            "at": "2026-11-23 02:21 UTC",
+            "why": "Owner 2026-11-23: blocker 4, commands no menu reaches (FX.460)"
+        },
+        {
+            "at": "2026-11-23 02:24 UTC",
+            "why": "Owner 2026-11-23: suite blockers fixed; cadcraft 0.11 gets the chip add-on's lib/schematic sync (tools/chip/sync.mjs cadcraft) that dev has"
+        }
+    ],
+    "refrozen": [
+        {
+            "at": "2026-11-22 22:40 UTC"
+        },
+        {
+            "at": "2026-11-23 02:21 UTC"
+        },
+        {
+            "at": "2026-11-23 02:24 UTC"
+        }
+    ],
+    "patched": [
+        {
+            "at": "2026-11-23 02:21 UTC",
+            "files": [
+                "input-takeoffcraft.js"
+            ],
+            "why": "Owner 2026-11-23: blocker 4, commands no menu reaches (FX.460)"
+        }
+    ]
+}
